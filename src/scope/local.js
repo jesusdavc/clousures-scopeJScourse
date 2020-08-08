@@ -12,7 +12,7 @@ var scope = 'Hello I am Global';
 const HelloPrint = () =>{
     var scope = 'I am Local';
     //La variable se toma como local para la función func
-    //Esto se le conoce cómo ámbito léxico
+    //Esto se le conoce cómo ámbito léxico. Basicamente las variables dependen del contexto de ejecución
     const func = () =>{
         return scope
     }
