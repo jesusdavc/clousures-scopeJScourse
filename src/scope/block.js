@@ -2,7 +2,7 @@ const fruits = () =>{
     if(true){
         var fruits1 = 'apple';
         let fruits2 = 'kiwi';
-        const fruits3 = 'banana';
+        const fruits3 = 'banana';//Scope Function-Block 
         console.log(fruits2);
         console.log(fruits3)
     }
